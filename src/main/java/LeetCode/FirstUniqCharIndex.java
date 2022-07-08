@@ -1,4 +1,4 @@
-package InerviewsTasks;
+package LeetCode;
 
 import java.util.HashMap;
 
@@ -20,8 +20,7 @@ public class FirstUniqCharIndex {
         }
 
         for (int i = 0; i < s.length(); i++) {
-            char letter = s.charAt(i);
-            if (countMap.get(letter) == 1) {
+            if (countMap.get(s.charAt(i)) == 1) {
                 return i;
             }
         }

@@ -1,6 +1,6 @@
-package InterviewsTasksTest;
+package LeetCodeTest;
 
-import InerviewsTasks.FirstUniqCharIndex;
+import LeetCode.FirstUniqCharIndex;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

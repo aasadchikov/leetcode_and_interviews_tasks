@@ -1,4 +1,4 @@
-package InterviewsTasksTest;
+package LeetCodeTest;
 
 import LeetCode.ReverseStringSolution;
 import org.testng.Assert;
