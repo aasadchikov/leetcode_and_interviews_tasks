@@ -1,6 +1,7 @@
 package LeetCode;
 
 public class FindLongestRepeatingSequence {
+
     public static String lcp(String s, String t){
         int n = Math.min(s.length(),t.length());
         for(int i = 0; i < n; i++){
