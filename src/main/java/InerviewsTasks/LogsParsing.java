@@ -79,7 +79,7 @@ public class LogsParsing {
             String dataActionsOfUser = actionsOfUser.toString().replaceAll("\\[", "").replaceAll("\\]", "").replaceAll("\\, ", "");
 
             //compare actions of users with example A => B => C
-            Pattern pattern = Pattern.compile("A+B+C+");
+            Pattern pattern = Pattern.compile("ABC");
             Matcher matcher = pattern.matcher(dataActionsOfUser);
             if (matcher.find()) {
                 System.out.println("User ID:" + currentUser + " has Wrong actions!");
